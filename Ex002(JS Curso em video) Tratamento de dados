@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width, initial-scale-1.0">
+     <meta http-equiv="X-IJA-Compatible" content="ie-edge">
+     <title>Meu primeiro progama...</title>
+     <style> /*Estilo do programa*/
+         img /*Estilo da imagem dentro do programa*/
+         {
+             border: 30px solid black;
+          }
+         body /*estilo do corpo */
+         {
+             border: 20px solid rgba(97, 97, 43, 0.877); /*Aplicar borda*/
+             background-color: rgba(0, 0, 0, 0.849); /*Adiciona cor no fundo*/
+             color: rgba(255, 238, 0, 0.925); /*Adiciona cor nas letras*/
+             font: italic 20pt monospace; /*Muda sua fonte de letra*/
+         }
+         h1{
+             color: rgb(254, 254, 255); /*Cor do paragráfo*/
+                     } 
+     </style>
+</head>
+<body>
+    
+   <h1> Olá, mundo!</h1>
+   <p> -Já me livrei da maldição</p>
+   <p> -Agora Já Estou pronto para me Apresentar...</p>
+   <p> -Olá,Tudo bem ? Me chamo: </p> 
+   <p> -Gabriel De Oliveira David Musel</p>
+   <p> -Tenho 20 anos</p>
+   <p> -Tenho 1 filho e sou casado</p>
+   <p> -Estou atualmente cursando JavaScript no Curso Em video com Guanabara</p> 
+   <p> -Procuro evoluir na progamação e sempre buscar aprender um pouco mais...</p>
+      
+   <p>E isso é minha primeira apresentação com JavaScript!!</p>
+    <script>
+       var nome = window.prompt ('Qual seu nome ?')
+       var idade = window.prompt ('Qual sua idade?')
+       var linguagem = window.prompt('Qual linguagem você está estudando ?')//para perguntar seu nome
+                  window.alert('Fico agradecido em nos que você tem, ' + idade + ' anos e a Linguagem que vocé está estudando é ' + linguagem  + ', Muito prazer em conhece-lo, '+ nome +'!')//Concatenação
+   </script>
+
+    
+</body>
+</html>
